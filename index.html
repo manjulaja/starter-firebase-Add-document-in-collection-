@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add data to firestore</title>
+</head>
+
+<body>
+  <div>
+    <input type="text" id="txtUserID">
+    <button onclick="storedata()">Proceed</button>
+  </div>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBJeGQ30RRrbJm8jwjUPDPaljUROtrL2fY",
+    authDomain: "firstorewebrunner.firebaseapp.com",
+    databaseURL: "https://firstorewebrunner.firebaseio.com",
+    projectId: "firstorewebrunner",
+    storageBucket: "firstorewebrunner.appspot.com",
+    messagingSenderId: "746684394719",
+    appId: "1:746684394719:web:ed14606bf76b5871380d6a",
+    measurementId: "G-BSW4NQ82FW"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="./index.js"></script>
+
+
+</html>
